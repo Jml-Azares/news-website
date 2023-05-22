@@ -4,4 +4,63 @@
 * {
     margin: 0%;
     padding: 0%;
+    font-family: variables.$main-font;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: variables.$bgColor-1;
+    width: 100vw;
+    height: 84px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+}
+
+.logo {
+    color: variables.$fontColor-1;
+    font-weight: variables.$font-weight7;
+    font-size: variables.$font-size4;
+    position: absolute;
+    letter-spacing: 0.1em;
+    line-height: 29px;
+    width: 76px;
+    height: 17px;
+    left: 80px;
+    top: 27px;
+}
+.menu {
+    float: right;
+    margin: auto;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    @include mixins.nav-menu();
+}
+
+.blog {
+    color: variables.$fontColor-1;
+    text-decoration: underline;
+}
+
+.sign-up {
+    color: variables.$fontColor-3;
+    font-weight: variables.$font-weight7;
+    font-size: variables.$font-size3;
+}
+
+.log-in {
+    color: variables.$fontColor-4;
+    font-weight: variables.$font-weight6;
+    font-size: variables.$font-size3;
 }

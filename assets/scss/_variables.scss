@@ -1,18 +1,26 @@
-// font colors
+// font formats
+$main-font: 'Inter', sans-serif;
 $fontColor-1: #DCF10D;
 $fontColor-2: #FFFFFF;
 $fontColor-3: #9D9DB5;
 $fontColor-4: #0266FF;
 $fontColor-5: #10131C;
 $fontColor-6: #192140;
+$font-size1: 12px;
+$font-size2: 15px;
+$font-size3: 16px;
+$font-size4: 20px;
+$font-size4: 24px;
+$font-weight1: 100;
+$font-weight2: 200;
+$font-weight3: 300;
+$font-weight4: 400;
+$font-weight5: 500;
+$font-weight6: 600;
+$font-weight7: 700;
+$font-weight8: 800;
+$font-weight9: 900;
 
 // background colors
 $bgColor-1: #192140;
 $bgcolor-2: #10131C;
-
-// font style
-$main-font: 'Inter';
-$font-size1: 24px;
-$font-size2: 16px;
-$font-size3: 20px;
-$font-size4: 12px;
