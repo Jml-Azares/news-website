@@ -15,7 +15,7 @@ nav {
 }
 
 .logo {
-  color: #DCF10D;
+  color: #dcf10d;
   font-weight: 700;
   font-size: 24px;
   position: absolute;
@@ -49,19 +49,19 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 500;
   font-size: 16px;
   text-decoration: none;
 }
 
 .blog {
-  color: #DCF10D;
+  color: #dcf10d;
   text-decoration: underline;
 }
 
 .sign-up {
-  color: #9D9DB5;
+  color: #9d9db5;
   font-weight: 700;
   font-size: 16px;
 }
@@ -70,7 +70,36 @@ nav ul li a {
   border: solid 1px;
   border-radius: 50px;
   padding: 16px;
-  color: #0266FF;
+  color: #0266ff;
   font-weight: 600;
   font-size: 16px;
-}/*# sourceMappingURL=main.css.map */
+}
+
+main {
+  display: grid;
+}
+
+.card-1 {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+
+.card {
+  width: 320px;
+  height: 250px;
+  border-radius: 8px;
+}
+
+.img-card1 {
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  width: 100%;
+  height: auto;
+} /*# sourceMappingURL=main.css.map */
+
+.circle-x {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
