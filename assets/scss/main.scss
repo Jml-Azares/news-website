@@ -184,6 +184,9 @@ footer {
 .socmed {
   height: 30px;
   width: 30px;
+  padding: 7px;
+  text-align: center;
+  vertical-align: middle;
   border-radius: 50px;
   background-color: variables.$bgColor-1;
 }
@@ -195,9 +198,15 @@ footer {
   color: variables.$fontColor-7;
 }
 
-.section-courses ul {
+.footer-courses ul {
   display: flex;
   gap: 20px;
+  padding-top: 20px;
+}
+
+.footer-privacy ul {
+  display: flex;
+  gap: 10px;
   padding-top: 20px;
 }
 
