@@ -11,7 +11,7 @@
 
 nav {
   display: flex;
-  background-color: variables.$bgColor-1;
+  background-color: variables.$color-1;
   width: 100vw;
   height: 84px;
   position: fixed;
@@ -19,7 +19,7 @@ nav {
 }
 
 .logo {
-  color: variables.$fontColor-1;
+  color: variables.$color-4;
   font-weight: variables.$font-weight7;
   font-size: variables.$font-size4;
   position: absolute;
@@ -57,12 +57,12 @@ nav ul li a {
 }
 
 .blog {
-  color: variables.$fontColor-1;
+  color: variables.$color-4;
   text-decoration: underline;
 }
 
 .sign-up {
-  color: variables.$fontColor-3;
+  color: variables.$color-6;
   font-weight: variables.$font-weight7;
   font-size: variables.$font-size3;
 }
@@ -71,7 +71,7 @@ nav ul li a {
   border: solid 1px;
   border-radius: 50px;
   padding: 16px;
-  color: variables.$fontColor-4;
+  color: variables.$color-7;
   font-weight: variables.$font-weight6;
   font-size: variables.$font-size3;
 }
@@ -91,18 +91,92 @@ main {
   height: 250px;
   border-radius: 8px;
   position: absolute;
+  background-color: variables.$color-3;
 }
 
-.img-card {
-  background-color: variables.$bgColor-3;
+.img-card1 {
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
   width: 100%;
-  height: auto;
+  height: 70%;
+  object-fit: cover;
+  object-position: 0 30%;
+}
+
+.img-card2 {
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+  object-position: 0 40%;
+}
+
+.img-card3 {
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  width: 100%;
+  height: 70%;
+  object-fit: cover;
+  object-position: 0 0%;
+}
+
+.img-card4 {
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  width: 100%;
+  height: 60%;
+  object-fit: cover;
+  object-position: 0 1%;
+}
+
+.img-card5 {
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  width: 100%;
+  height: 70%;
+  object-fit: cover;
+  object-position: 0 5%;
+}
+
+.img-card6 {
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  width: 100%;
+  height: 70%;
+  object-fit: cover;
+  object-position: 0 5%;
+}
+
+.img-card7 {
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  width: 100%;
+  height: 85%;
+  object-fit: cover;
+  object-position: 0 5%;
+}
+
+.img-card8 {
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  width: 100%;
+  height: 66%;
+  object-fit: cover;
+  object-position: 0 1%;
+}
+
+.img-card9 {
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  width: 100%;
+  height: 75%;
+  object-fit: cover;
+  object-position: 0 5%;
 }
 
 .card-content {
-  color: variables.$bgColor-2;
+  color: variables.$color-2;
   display: flex;
   flex-direction: column;
   padding: 10px 20px;
@@ -116,7 +190,7 @@ main {
 }
 
 .circle-check {
-  color: variables.$fontColor-6;
+  color: variables.$color-1;
 }
 
 .heart {
@@ -128,7 +202,7 @@ main {
   display: flex;
   justify-content: space-between;
   font-size: 12px;
-  color: variables.$fontColor-3;
+  color: variables.$color-6;
 }
 
 .date {
@@ -140,19 +214,19 @@ main {
 footer {
   width: 100vw;
   height: 274px;
-  background-color: variables.$bgColor-2;
+  background-color: variables.$color-2;
 }
 
 .section-blog {
   display: flex;
   padding: 60px 60px 30px 60px;
   justify-content: space-between;
-  color: variables.$fontColor-7;
+  color: variables.$color-9;
 }
 
 .footer-blog p {
   font-weight: variables.$font-weight7;
-  color: variables.$fontColor-2;
+  color: variables.$color-5;
   letter-spacing: -0.02em;
   font-size: 16px;
 }
@@ -172,7 +246,7 @@ footer {
   letter-spacing: -0.02em;
   line-height: 130%;
   font-weight: variables.$font-weight4;
-  color: variables.$fontColor-2;
+  color: variables.$color-5;
 }
 
 .socmed-links ul {
@@ -188,14 +262,14 @@ footer {
   text-align: center;
   vertical-align: middle;
   border-radius: 50px;
-  background-color: variables.$bgColor-1;
+  background-color: variables.$color-1;
 }
 
 .section-courses {
   display: flex;
   padding: 0 60px 60px 60px;
   justify-content: space-between;
-  color: variables.$fontColor-7;
+  color: variables.$color-9;
 }
 
 .footer-courses ul {
@@ -211,7 +285,7 @@ footer {
 }
 
 .footer-courses p {
-  color: variables.$fontColor-2;
+  color: variables.$color-5;
   font-weight: variables.$font-weight7;
   font-size: 16px;
   letter-spacing: -0.02em;
@@ -221,7 +295,7 @@ footer {
 .footer-courses ul {
   font-size: 12px;
   font-weight: variables.$font-weight4;
-  color: variables.$fontColor-7;
+  color: variables.$color-9;
   line-height: 130%;
   letter-spacing: -0.03em;
 }
@@ -229,7 +303,7 @@ footer {
 .footer-privacy ul {
   font-size: 12px;
   font-weight: 400;
-  color: #ffffff;
+  color: variables.$color-5;
   opacity: 0.4;
   letter-spacing: -0.03em;
   line-height: 130%;
