@@ -76,30 +76,30 @@ nav ul li a {
 }
 
 main {
+  justify-content: center;
+  padding-top: 150px;
   display: grid;
-}
-
-.card-1 {
-  background-color: variables.$bgColor-3;
-  position: absolute;
-  top: 100px;
-  left: 100px;
+  gap: 40px;
+  grid-template-columns: 320px 320px 320px;
+  grid-template-rows: 350px 350px 350px;
 }
 
 .card {
   width: 320px;
   height: 250px;
   border-radius: 8px;
+  position: absolute;
 }
 
-.img-card1 {
+.img-card {
+  background-color: variables.$bgColor-3;
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
   width: 100%;
   height: auto;
 }
 
-.card1-content {
+.card-content {
   color: variables.$bgColor-2;
   display: flex;
   flex-direction: column;
