@@ -1,6 +1,8 @@
-@mixin nav-menu() {
-  color: #ffffff;
-  font-weight: 500;
-  font-size: 16px;
-  text-decoration: none;
+@mixin card-img($img-height: 0%, $img-position: 0 0%) {
+  object-position: $img-position;
+  height: $img-height;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  width: 100%;
+  object-fit: cover;
 }

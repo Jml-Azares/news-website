@@ -95,102 +95,102 @@ main {
 }
 
 .img-card1 {
+  -o-object-position: 0 30%;
+     object-position: 0 30%;
+  height: 70%;
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
   width: 100%;
-  height: 70%;
   -o-object-fit: cover;
      object-fit: cover;
-  -o-object-position: 0 30%;
-     object-position: 0 30%;
 }
 
 .img-card2 {
+  -o-object-position: 0 40%;
+     object-position: 0 40%;
+  height: 80%;
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
   width: 100%;
-  height: 80%;
   -o-object-fit: cover;
      object-fit: cover;
-  -o-object-position: 0 40%;
-     object-position: 0 40%;
 }
 
 .img-card3 {
+  -o-object-position: 0 0%;
+     object-position: 0 0%;
+  height: 70%;
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
   width: 100%;
-  height: 70%;
   -o-object-fit: cover;
      object-fit: cover;
-  -o-object-position: 0 0%;
-     object-position: 0 0%;
 }
 
 .img-card4 {
+  -o-object-position: 0 1%;
+     object-position: 0 1%;
+  height: 60%;
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
   width: 100%;
-  height: 60%;
   -o-object-fit: cover;
      object-fit: cover;
-  -o-object-position: 0 1%;
-     object-position: 0 1%;
 }
 
 .img-card5 {
+  -o-object-position: 0 5%;
+     object-position: 0 5%;
+  height: 70%;
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
   width: 100%;
-  height: 70%;
   -o-object-fit: cover;
      object-fit: cover;
-  -o-object-position: 0 5%;
-     object-position: 0 5%;
 }
 
 .img-card6 {
+  -o-object-position: 0 5%;
+     object-position: 0 5%;
+  height: 70%;
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
   width: 100%;
-  height: 70%;
   -o-object-fit: cover;
      object-fit: cover;
-  -o-object-position: 0 5%;
-     object-position: 0 5%;
 }
 
 .img-card7 {
+  -o-object-position: 0 5%;
+     object-position: 0 5%;
+  height: 85%;
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
   width: 100%;
-  height: 85%;
   -o-object-fit: cover;
      object-fit: cover;
-  -o-object-position: 0 5%;
-     object-position: 0 5%;
 }
 
 .img-card8 {
+  -o-object-position: 0 1%;
+     object-position: 0 1%;
+  height: 66%;
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
   width: 100%;
-  height: 66%;
   -o-object-fit: cover;
      object-fit: cover;
-  -o-object-position: 0 1%;
-     object-position: 0 1%;
 }
 
 .img-card9 {
+  -o-object-position: 0 5%;
+     object-position: 0 5%;
+  height: 75%;
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
   width: 100%;
-  height: 75%;
   -o-object-fit: cover;
      object-fit: cover;
-  -o-object-position: 0 5%;
-     object-position: 0 5%;
 }
 
 .card-content {
