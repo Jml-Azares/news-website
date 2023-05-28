@@ -78,6 +78,7 @@ nav ul li a {
 main {
   justify-content: center;
   padding-top: 150px;
+  padding-bottom: 60px;
   display: grid;
   gap: 40px;
   grid-template-columns: 320px 320px 320px;
@@ -127,4 +128,10 @@ main {
   border: solid 1px;
   border-radius: 50px;
   padding: 5px;
+}
+
+footer {
+  width: 100vw;
+  height: 274px;
+  background-color: variables.$bgColor-2;
 }
