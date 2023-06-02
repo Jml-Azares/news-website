@@ -89,12 +89,15 @@ main {
   grid-template-rows: 350px 350px 350px;
 }
 
+.card-container {
+  background-color: variables.$color-3;
+}
+
 .card {
   width: 320px;
   height: 250px;
   border-radius: 8px;
   position: absolute;
-  background-color: variables.$color-3;
 }
 
 .img-card1 {

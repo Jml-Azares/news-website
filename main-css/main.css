@@ -86,12 +86,15 @@ main {
   grid-template-rows: 350px 350px 350px;
 }
 
+.card-container {
+  background-color: #f8f9fc;
+}
+
 .card {
   width: 320px;
   height: 250px;
   border-radius: 8px;
   position: absolute;
-  background-color: #f8f9fc;
 }
 
 .img-card1 {
