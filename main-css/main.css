@@ -14,16 +14,7 @@ nav {
   position: fixed;
   z-index: 1;
 }
-
-.circle-x {
-  color: #9d9db5;
-}
-
-.circle-check {
-  color: #192140;
-}
-
-.logo {
+nav .logo {
   color: #dcf10d;
   font-weight: 700;
   font-size: 24px;
@@ -35,16 +26,14 @@ nav {
   left: 80px;
   top: 27px;
 }
-
-.menu {
+nav .menu {
   display: flex;
   position: absolute;
   text-align: center;
   right: 304px;
   gap: 30px;
 }
-
-.sign-log {
+nav .sign-log {
   display: flex;
   position: absolute;
   gap: 10px;
@@ -56,7 +45,6 @@ nav ul li {
   line-height: 80px;
   margin: 0 5px;
 }
-
 nav ul li a {
   color: #ffffff;
   font-weight: 500;
@@ -95,95 +83,96 @@ main {
   grid-template-rows: 350px 350px 350px;
 }
 
-.card-container {
+.myCard-cont {
   background-color: #f8f9fc;
+  border-radius: 6px;
 }
-
-.card {
+.myCard-cont .circle-x {
+  color: #9d9db5;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.myCard-cont .circle-check {
+  color: #192140;
+}
+.myCard-cont .myCard {
   width: 320px;
   height: 250px;
   border-radius: 8px;
   position: absolute;
 }
-
-.img-card1 {
+.myCard-cont .img-card1 {
   -o-object-position: 0 30%;
      object-position: 0 30%;
-  height: 70%;
+  height: 65%;
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
-
-.img-card2 {
+.myCard-cont .img-card2 {
   -o-object-position: 0 40%;
      object-position: 0 40%;
-  height: 80%;
+  height: 76%;
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
-
-.img-card3 {
+.myCard-cont .img-card3 {
   -o-object-position: 0 0%;
      object-position: 0 0%;
-  height: 70%;
+  height: 65%;
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
-
-.img-card4 {
+.myCard-cont .img-card4 {
   -o-object-position: 0 1%;
      object-position: 0 1%;
-  height: 60%;
+  height: 65%;
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
-
-.img-card5 {
+.myCard-cont .img-card5 {
   -o-object-position: 0 5%;
      object-position: 0 5%;
-  height: 70%;
+  height: 76%;
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
-
-.img-card6 {
+.myCard-cont .img-card6 {
   -o-object-position: 0 5%;
      object-position: 0 5%;
-  height: 70%;
+  height: 76%;
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
-
-.img-card7 {
+.myCard-cont .img-card7 {
   -o-object-position: 0 5%;
      object-position: 0 5%;
-  height: 85%;
+  height: 90%;
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
-
-.img-card8 {
+.myCard-cont .img-card8 {
   -o-object-position: 0 1%;
      object-position: 0 1%;
   height: 66%;
@@ -193,52 +182,46 @@ main {
   -o-object-fit: cover;
      object-fit: cover;
 }
-
-.img-card9 {
+.myCard-cont .img-card9 {
   -o-object-position: 0 5%;
      object-position: 0 5%;
-  height: 75%;
+  height: 76%;
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
-
-.card-content {
+.myCard-cont .card-content {
   color: #10131c;
   display: flex;
   flex-direction: column;
   padding: 10px 20px;
   gap: 10px;
 }
-
-.circle-x {
-  position: absolute;
-  top: 10px;
-  right: 10px;
+.myCard-cont .card-content p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  color: #10131c;
+  margin-bottom: 0;
 }
-
-.circle-check {
-  color: #192140;
+.myCard-cont .card-content hr {
+  margin: 0;
 }
-
-.heart {
-  width: 16px;
-  height: 14px;
-}
-
-.card-footer {
+.myCard-cont .card-footer {
   display: flex;
   justify-content: space-between;
   font-size: 12px;
-  color: #9d9db5;
 }
-
-.date {
+.myCard-cont .card-footer .date {
+  color: #9d9db5;
   border: solid 1px;
   border-radius: 50px;
-  padding: 5px;
+  padding: 2px 7px;
+}
+.myCard-cont .card-footer .heart {
+  color: #9d9db5;
 }
 
 footer {
@@ -253,26 +236,25 @@ footer {
 .section-blog {
   display: flex;
   flex-direction: column;
-  gap: 40px;
-  color: #d7f8ff;
-}
-
-.section-blog ul {
-  display: flex;
   gap: 20px;
-  padding-top: 20px;
-  font-size: 12px;
-  letter-spacing: -0.03em;
-  line-height: 130%;
-  font-weight: 400;
   color: #d7f8ff;
 }
-
 .section-blog p {
   font-weight: 700;
   color: #ffffff;
   letter-spacing: -0.02em;
   font-size: 16px;
+}
+.section-blog ul {
+  display: flex;
+  gap: 20px;
+  padding-top: 20px;
+  padding-left: 0;
+  font-size: 12px;
+  letter-spacing: -0.03em;
+  line-height: 130%;
+  font-weight: 400;
+  color: #d7f8ff;
 }
 
 .follow-us {
@@ -287,11 +269,11 @@ footer {
   font-weight: 400;
   color: #ffffff;
 }
-
 .socmed-links ul {
   display: flex;
   gap: 20px;
   padding-top: 20px;
+  padding-left: 0;
 }
 
 .socmed {
@@ -336,6 +318,7 @@ footer {
   }
   .footer-privacy ul {
     float: left;
+    padding-left: 0;
   }
 }
 @media only screen and (max-width: 760px) {
