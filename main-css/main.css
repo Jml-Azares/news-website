@@ -364,4 +364,8 @@ footer {
 }
 .like {
   color: #0266ff;
+}
+
+.heart:hover {
+  cursor: pointer;
 }/*# sourceMappingURL=main.css.map */
