@@ -156,12 +156,13 @@ main {
   .card-footer {
     display: flex;
     justify-content: space-between;
-    font-size: 12px;
+    // font-size: 20px;
     .date {
       color: variables.$color-6;
       border: solid 1px;
       border-radius: 50px;
       padding: 2px 7px;
+      font-size: 50px;
     }
     .heart {
       color: variables.$color-6;
@@ -296,4 +297,8 @@ footer {
   .socmed-links ul {
     gap: 10px;
   }
+}
+
+.favorite {
+  color: blue;
 }
