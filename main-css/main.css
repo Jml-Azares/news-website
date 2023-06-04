@@ -30,6 +30,7 @@ nav .menu {
   display: flex;
   position: absolute;
   text-align: center;
+  top: 1px;
   right: 304px;
   gap: 30px;
 }
@@ -37,6 +38,7 @@ nav .sign-log {
   display: flex;
   position: absolute;
   gap: 10px;
+  top: 1px;
   right: 100px;
   letter-spacing: -0.01em;
 }
@@ -230,13 +232,13 @@ footer {
   width: 100vw;
   height: 274px;
   background-color: #10131c;
-  padding: 60px 60px 30px 60px;
+  padding: 60px 60px;
 }
 
 .section-blog {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 40px;
   color: #d7f8ff;
 }
 .section-blog p {
@@ -248,7 +250,6 @@ footer {
 .section-blog ul {
   display: flex;
   gap: 20px;
-  padding-top: 20px;
   padding-left: 0;
   font-size: 12px;
   letter-spacing: -0.03em;
@@ -272,7 +273,6 @@ footer {
 .socmed-links ul {
   display: flex;
   gap: 20px;
-  padding-top: 20px;
   padding-left: 0;
 }
 
