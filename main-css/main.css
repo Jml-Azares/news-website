@@ -223,10 +223,11 @@ main {
   border: solid 1px;
   border-radius: 50px;
   padding: 2px 7px;
-  font-size: 50px;
+  font-size: 12px;
 }
 .myCard-cont .card-footer .heart {
   color: #9d9db5;
+  font-size: 15px;
 }
 
 footer {
