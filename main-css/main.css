@@ -80,7 +80,7 @@ nav ul li a {
 
 main {
   justify-content: center;
-  padding-top: 160px;
+  padding-top: 50px;
   padding-bottom: 60px;
   display: grid;
   gap: 40px;
@@ -329,6 +329,7 @@ footer {
   main {
     display: grid;
     gap: 40px;
+    padding-top: 50px;
     grid-template-columns: 320px;
     grid-template-rows: 350px 350px 350px 350px 350px 350px 350px 350px 350px;
   }
@@ -340,15 +341,27 @@ footer {
     flex-direction: column;
     gap: 10px;
   }
+  nav button {
+    right: 15px;
+  }
+  nav .logo {
+    left: 15px;
+  }
 }
 @media only screen and (max-width: 370px) {
   main {
-    padding-top: 120px;
+    padding-top: 50px;
   }
   .socmed-links ul {
     gap: 10px;
   }
+  nav button {
+    right: 15px;
+  }
+  nav .logo {
+    left: 15px;
+  }
 }
-.favorite {
-  color: blue;
+.like {
+  color: #0266ff;
 }/*# sourceMappingURL=main.css.map */

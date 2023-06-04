@@ -1,5 +1,5 @@
-function favorite(e) {
+function like(e) {
   e.classList.toggle("heart");
-  e.classList.toggle("favorite");
+  e.classList.toggle("like");
   e.classList.toggle("fa-solid");
 }
