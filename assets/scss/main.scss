@@ -16,6 +16,10 @@ nav {
   height: 84px;
   position: fixed;
   z-index: 1;
+  button {
+    position: absolute;
+    right: 50px;
+  }
   .logo {
     color: variables.$color-4;
     font-weight: variables.$font-weight7;
@@ -34,7 +38,7 @@ nav {
     text-align: center;
     top: 1px;
     right: 304px;
-    gap: 30px;
+    gap: 10px;
   }
   .sign-log {
     display: flex;
