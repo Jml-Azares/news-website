@@ -300,12 +300,6 @@ footer .socmed {
     flex-direction: column;
     gap: 10px;
   }
-  nav button {
-    right: 15px;
-  }
-  nav .logo {
-    left: 15px;
-  }
 }
 @media only screen and (max-width: 370px) {
   main {
@@ -314,11 +308,8 @@ footer .socmed {
   .socmed-links ul {
     gap: 10px;
   }
-  nav button {
-    right: 15px;
-  }
-  nav .logo {
-    left: 15px;
+  footer {
+    padding-left: 10px;
   }
 }
 .like {
