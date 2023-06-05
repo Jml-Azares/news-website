@@ -10,76 +10,105 @@
 }
 
 nav {
-  display: flex;
   background-color: variables.$color-1;
-  width: 100vw;
-  height: 84px;
-  position: fixed;
-  z-index: 1;
-  button {
-    position: absolute;
-    right: 50px;
-  }
-  .logo {
+  .navbar-brand {
     color: variables.$color-4;
     font-weight: variables.$font-weight7;
     font-size: variables.$font-size4;
-    position: absolute;
-    letter-spacing: 0.1em;
-    line-height: 29px;
-    width: 76px;
-    height: 17px;
-    left: 80px;
-    top: 27px;
   }
-  .menu {
-    display: flex;
-    position: absolute;
-    text-align: center;
-    top: 1px;
-    right: 304px;
-    gap: 10px;
+  .navbar-brand:hover {
+    color: variables.$color-4;
   }
-  .sign-log {
-    display: flex;
-    position: absolute;
-    gap: 10px;
-    top: 1px;
-    right: 100px;
-    letter-spacing: -0.01em;
+  .navbar-nav .nav-link.blog {
+    color: variables.$color-4;
+    text-decoration: underline;
+    font-weight: variables.$font-weight5;
+    font-size: variables.$font-size3;
+  }
+  .nav-item .nav-link {
+    color: variables.$color-5;
+    font-weight: variables.$font-weight5;
+    font-size: variables.$font-size3;
+  }
+  .navbar-toggler {
+    border-color: variables.$color-4;
+  }
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28220, 241, 13, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
   }
 }
 
-nav ul li {
-  line-height: 80px;
-  margin: 0 5px;
-  a {
-    color: #ffffff;
-    font-weight: 500;
-    font-size: 16px;
-    text-decoration: none;
-  }
-}
+// nav {
+//   display: flex;
+//   background-color: variables.$color-1;
+//   width: 100vw;
+//   height: 84px;
+//   position: fixed;
+//   z-index: 1;
+//   button {
+//     position: absolute;
+//     right: 50px;
+//   }
+//   .logo {
+//     color: variables.$color-4;
+//     font-weight: variables.$font-weight7;
+//     font-size: variables.$font-size4;
+//     position: absolute;
+//     letter-spacing: 0.1em;
+//     line-height: 29px;
+//     width: 76px;
+//     height: 17px;
+//     left: 80px;
+//     top: 27px;
+//   }
+//   .menu {
+//     display: flex;
+//     position: absolute;
+//     text-align: center;
+//     top: 1px;
+//     right: 304px;
+//     gap: 10px;
+//   }
+//   .sign-log {
+//     display: flex;
+//     position: absolute;
+//     gap: 10px;
+//     top: 1px;
+//     right: 100px;
+//     letter-spacing: -0.01em;
+//   }
+// }
 
-.blog {
-  color: variables.$color-4;
-  text-decoration: underline;
-}
+// nav ul li {
+//   line-height: 80px;
+//   margin: 0 5px;
+//   a {
+//     color: #ffffff;
+//     font-weight: 500;
+//     font-size: 16px;
+//     text-decoration: none;
+//   }
+// }
 
-.sign-up {
-  color: variables.$color-6;
-  font-weight: variables.$font-weight7;
-  font-size: variables.$font-size3;
-}
+// .blog {
+//   color: variables.$color-4;
+//   text-decoration: underline;
+// }
 
-.log-in {
-  border: solid 1px;
-  border-radius: 50px;
-  padding: 16px;
-  color: variables.$color-7;
-  font-weight: variables.$font-weight6;
-  font-size: variables.$font-size3;
-}
+// .sign-up {
+//   color: variables.$color-6;
+//   font-weight: variables.$font-weight7;
+//   font-size: variables.$font-size3;
+// }
+
+// .log-in {
+//   border: solid 1px;
+//   border-radius: 50px;
+//   padding: 16px;
+//   color: variables.$color-7;
+//   font-weight: variables.$font-weight6;
+//   font-size: variables.$font-size3;
+// }
 
 main {
   justify-content: center;
