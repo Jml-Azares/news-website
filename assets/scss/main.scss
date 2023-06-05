@@ -65,7 +65,6 @@ nav {
 //     font-weight: variables.$font-weight7;
 //     font-size: variables.$font-size4;
 //     position: absolute;
-//     letter-spacing: 0.1em;
 //     line-height: 29px;
 //     width: 76px;
 //     height: 17px;
@@ -86,7 +85,6 @@ nav {
 //     gap: 10px;
 //     top: 1px;
 //     right: 100px;
-//     letter-spacing: -0.01em;
 //   }
 // }
 
@@ -217,60 +215,53 @@ footer {
   height: 274px;
   background-color: variables.$color-2;
   padding: 60px 60px;
-}
-
-.section-blog {
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-  color: variables.$color-9;
-  p {
-    font-weight: variables.$font-weight7;
-    color: variables.$color-5;
-    letter-spacing: -0.02em;
-    font-size: 16px;
-  }
-  ul {
+  .section-blog {
     display: flex;
-    gap: 20px;
-    padding-left: 0;
-    font-size: 12px;
-    letter-spacing: -0.03em;
-    line-height: 130%;
-    font-weight: variables.$font-weight4;
+    flex-direction: column;
+    gap: 40px;
     color: variables.$color-9;
+    p {
+      font-weight: variables.$font-weight7;
+      color: variables.$color-5;
+      font-size: 16px;
+    }
+    ul {
+      display: flex;
+      gap: 20px;
+      padding-left: 0;
+      font-size: 12px;
+      line-height: 130%;
+      font-weight: variables.$font-weight4;
+      color: variables.$color-9;
+    }
   }
-}
-
-.follow-us {
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-}
-
-.socmed-links {
-  p {
-    font-size: 12px;
-    letter-spacing: -0.02em;
-    font-weight: variables.$font-weight4;
+  .follow-us {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    .socmed-links {
+      p {
+        font-size: 12px;
+        font-weight: variables.$font-weight4;
+        color: variables.$color-5;
+      }
+      ul {
+        display: flex;
+        gap: 20px;
+        padding-left: 0;
+      }
+    }
+  }
+  .socmed {
+    height: 30px;
+    width: 30px;
+    padding: 7px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50px;
+    background-color: variables.$color-1;
     color: variables.$color-5;
   }
-  ul {
-    display: flex;
-    gap: 20px;
-    padding-left: 0;
-  }
-}
-
-.socmed {
-  height: 30px;
-  width: 30px;
-  padding: 7px;
-  text-align: center;
-  vertical-align: middle;
-  border-radius: 50px;
-  background-color: variables.$color-1;
-  color: variables.$color-5;
 }
 
 .footer-privacy ul {
@@ -282,7 +273,6 @@ footer {
   font-weight: 400;
   color: variables.$color-5;
   opacity: 0.4;
-  letter-spacing: -0.03em;
 }
 
 @media only screen and (max-width: 1100px) {
