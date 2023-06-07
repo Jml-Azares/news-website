@@ -418,6 +418,13 @@ footer .socmed {
   opacity: 0.4;
 }
 
+footer:hover p {
+  cursor: pointer;
+}
+footer:hover ul {
+  cursor: pointer;
+}
+
 .like {
   color: #0266ff;
 }

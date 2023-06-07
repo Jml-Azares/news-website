@@ -243,6 +243,15 @@ footer {
   opacity: 0.4;
 }
 
+footer:hover {
+  p {
+    cursor: pointer;
+  }
+  ul {
+    cursor: pointer;
+  }
+}
+
 .like {
   color: variables.$color-7;
 }
