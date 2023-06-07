@@ -8,8 +8,8 @@ function read(e) {
   e.classList.toggle("visible");
 }
 
-function remove(element) {
-  const card = element.closest(".myCard-cont");
+function remove(e) {
+  const card = e.closest(".myCard-cont");
   if (card) {
     card.remove();
   }

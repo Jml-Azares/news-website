@@ -6,3 +6,13 @@
   width: 100%;
   object-fit: cover;
 }
+
+@mixin shadow() {
+  position: absolute;
+  visibility: hidden;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  background: linear-gradient(180deg, #192140 0%, rgba(25, 33, 64, 0) 70.8%);
+  z-index: 0;
+}
