@@ -60,6 +60,7 @@ main {
   border-radius: 6px;
 }
 .myCard-cont .circle-x {
+  visibility: hidden;
   color: #9d9db5;
   position: absolute;
   top: 10px;
@@ -67,6 +68,7 @@ main {
 }
 .myCard-cont .circle-check {
   color: #192140;
+  visibility: hidden;
 }
 .myCard-cont .myCard {
   width: 320px;
@@ -318,4 +320,20 @@ footer .socmed {
 
 .heart:hover {
   cursor: pointer;
+}
+
+.circle-check:hover {
+  cursor: pointer;
+}
+
+.circle-x:hover {
+  cursor: pointer;
+}
+
+.myCard-cont:hover .circle-check {
+  visibility: visible;
+}
+
+.myCard-cont:hover .circle-x {
+  visibility: visible;
 }/*# sourceMappingURL=main.css.map */

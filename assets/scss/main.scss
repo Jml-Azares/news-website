@@ -133,6 +133,7 @@ main {
   background-color: variables.$color-3;
   border-radius: 6px;
   .circle-x {
+    visibility: hidden;
     color: variables.$color-6;
     position: absolute;
     top: 10px;
@@ -140,6 +141,7 @@ main {
   }
   .circle-check {
     color: variables.$color-1;
+    visibility: hidden;
   }
   .myCard {
     width: 320px;
@@ -147,6 +149,16 @@ main {
     border-radius: 8px;
     position: absolute;
   }
+  // .shadow {
+  //   position: absolute;
+  //   background: linear-gradient(180deg, #192140 0%, rgba(25, 33, 64, 0) 70.8%);
+  //   border-top-left-radius: 6px;
+  //   border-top-right-radius: 6px;
+  //   height: 250px;
+  //   left: 0px;
+  //   right: 0px;
+  //   top: 0px;
+  // }
   .img-card1 {
     @include mixins.card-img($img-height: 65%, $img-position: 0 30%);
   }
@@ -349,4 +361,20 @@ footer {
 
 .heart:hover {
   cursor: pointer;
+}
+
+.circle-check:hover {
+  cursor: pointer;
+}
+
+.circle-x:hover {
+  cursor: pointer;
+}
+
+.myCard-cont:hover .circle-check {
+  visibility: visible;
+}
+
+.myCard-cont:hover .circle-x {
+  visibility: visible;
 }
